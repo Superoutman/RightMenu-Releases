@@ -21,6 +21,27 @@ RightMenu uses the native Finder Sync extension mechanism. **New File** appears
 when you right-click an empty area, while **Copy File Path** appears when you
 right-click a file or folder.
 
+## Security & Privacy
+
+- **Native, sandboxed Finder extension:** the context menu is provided through
+  Apple's Finder Sync framework, and the extension runs with App Sandbox
+  enabled.
+- **No Accessibility or Finder-control permission:** RightMenu does not request
+  Accessibility access or permission to automate and control Finder.
+- **Local file handling:** new files are created on your Mac. RightMenu does
+  not upload file contents, filenames, selected paths, or clipboard data.
+- **No tracking:** the app contains no analytics, advertising, telemetry,
+  account system, or device identifier.
+- **Signed update verification:** update archives are verified by Sparkle using
+  the public EdDSA key embedded in the app before installation.
+- **Minimal network activity:** automatic update checks read only the public
+  RightMenu update feed. Normal Finder menu actions work locally.
+
+These application-level protections are separate from Apple's Developer ID and
+notarization checks. Current builds use ad-hoc code signing to keep early
+development costs low, so macOS displays the first-launch warning described
+below.
+
 ## Installation
 
 1. Download the latest ZIP from
