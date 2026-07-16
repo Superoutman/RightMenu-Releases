@@ -1,21 +1,63 @@
-# RightMenu Releases
+# RightMenu
 
-This public repository hosts the update feed and latest downloadable build for
-[RightMenu](https://github.com/Superoutman/RightMenu).
+A clean, native context-menu extension for macOS Finder.
 
-The source repository is private. Files in this repository are published
-automatically when a version tag such as `v0.1.2` is pushed from the source
-repository.
+[Download the latest release](https://github.com/Superoutman/RightMenu-Releases/releases/latest)
 
-## Files
+## Features
 
-- `appcast.xml`: Sparkle update feed.
-- `RightMenu-<version>.zip`: latest RightMenu update archive.
+- Create new files directly from the background context menu of any Finder
+  folder or the desktop.
+- Create TXT, Markdown, RTF, Word, Excel, and PowerPoint files.
+- Copy the full path of selected files and folders from their context menu.
+- Choose which file formats appear in the **New File** submenu.
+- Independently show or hide the menu bar icon and Dock icon.
+- Launch automatically at login.
+- Receive in-app update notifications through Sparkle.
+- Follow the macOS system language automatically, with English and Simplified
+  Chinese included.
 
-Download the latest build from this repository's
-[GitHub Releases](https://github.com/Superoutman/RightMenu-Releases/releases/latest).
-Each update pushed by the private source repository automatically creates or
-updates the matching GitHub Release.
+RightMenu uses the native Finder Sync extension mechanism. **New File** appears
+when you right-click an empty area, while **Copy File Path** appears when you
+right-click a file or folder.
+
+## Installation
+
+1. Download the latest ZIP from
+   [GitHub Releases](https://github.com/Superoutman/RightMenu-Releases/releases/latest).
+2. Extract `RightMenu.app` and move it to the **Applications** folder.
+3. Open RightMenu once.
+4. If macOS asks for approval, enable RightMenu under **System Settings >
+   General > Login Items & Extensions > Finder Extensions**.
+5. Relaunch Finder if the context menu does not appear immediately.
 
 > Current builds are intended for testing until Developer ID signing and Apple
-> notarization are configured in the private source repository.
+> notarization are configured. macOS may require you to explicitly allow the
+> app before its first launch.
+
+## Usage
+
+- Right-click an empty area in a Finder folder or on the desktop, then choose
+  **New File** and a file type.
+- Right-click one or more files or folders, then choose **Copy File Path**.
+- Open RightMenu Settings from its menu bar icon, Dock icon, Launchpad, or the
+  Applications folder.
+- Use Settings to configure file formats, launch at login, and icon visibility.
+
+## Updates
+
+RightMenu checks this repository's Sparkle feed for updates. When a new version
+is available, an update action appears in both the menu bar menu and the
+Settings window.
+
+Every published version is available as a GitHub Release with its update
+archive and English release notes.
+
+## Repository contents
+
+- `appcast.xml`: the Sparkle update feed.
+- `RightMenu-<version>.zip`: the downloadable application archive.
+- `RightMenu-<version>.md`: the release notes for that version.
+
+The application source is maintained in a private repository. Release artifacts
+are published here automatically only when a matching version tag is pushed.
