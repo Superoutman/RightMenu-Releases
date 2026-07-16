@@ -1,0 +1,34 @@
+<?xml version="1.0" standalone="yes"?>
+<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
+    <channel>
+        <title>RightMenu</title>
+        <item>
+            <title>0.1.2</title>
+            <pubDate>Thu, 16 Jul 2026 07:59:19 +0000</pubDate>
+            <link>https://github.com/Superoutman/RightMenu-Releases</link>
+            <sparkle:version>3</sparkle:version>
+            <sparkle:shortVersionString>0.1.2</sparkle:shortVersionString>
+            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
+            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+            <description sparkle:format="markdown"><![CDATA[
+### Added
+
+- Added the public `RightMenu-Releases` repository for the Sparkle feed and downloadable update archive.
+- Added tag-triggered GitHub Actions publishing from the private source repository.
+- Added repository-scoped Deploy Key publishing and encrypted Sparkle signing-key storage.
+
+### Changed
+
+- The app now reads its update feed from the public release repository.
+- Version metadata now has a shared command-line source in `Configuration/Version.env`.
+- Ordinary source pushes do not publish updates; only matching `v*` tags trigger publishing.
+
+### Distribution note
+
+- Automated builds remain ad-hoc signed until Developer ID signing and Apple notarization credentials are configured.
+
+]]></description>
+            <enclosure url="https://raw.githubusercontent.com/Superoutman/RightMenu-Releases/main/RightMenu-0.1.2.zip" length="3933194" type="application/octet-stream" sparkle:edSignature="FtiCjGyIoYY4UuOGfvsmdZ2em9bXHYld6A4MtG2J35U7ohGW+R3e3gvVmspraNfjLK4Pb7FJceLGxBGFiG2FBQ=="/>
+        </item>
+    </channel>
+</rss>
