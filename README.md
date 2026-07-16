@@ -29,6 +29,12 @@ RightMenu uses the native Finder Sync extension mechanism. **New File** appears
 when you right-click an empty area, while **Copy File Path** appears when you
 right-click a file or folder.
 
+## Compatibility
+
+- **Minimum system:** macOS 15.0 or later.
+- **Processor:** Apple Silicon (`arm64`) only. Intel-based Macs are not
+  supported.
+
 ## Security & Privacy
 
 - **Native, sandboxed Finder extension:** the context menu is provided through
