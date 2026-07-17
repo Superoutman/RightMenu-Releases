@@ -5,7 +5,7 @@
         <item>
             <title>0.1.9</title>
             <pubDate>Thu, 16 Jul 2026 14:54:31 +0000</pubDate>
-            <link>https://github.com/Superoutman/RightMenu-Releases</link>
+            <link>https://github.com/Superoutman/RightMenu</link>
             <sparkle:version>10</sparkle:version>
             <sparkle:shortVersionString>0.1.9</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
@@ -18,7 +18,7 @@
   while preserving the existing nostalgic Refresh animation.
 
 ]]></description>
-            <enclosure url="https://raw.githubusercontent.com/Superoutman/RightMenu-Releases/main/RightMenu-0.1.9.zip" length="3397932" type="application/octet-stream" sparkle:edSignature="HPTu2bjWmD4ozG9P1PCfLZ2FZM4BXhd4bSrwFGZlQ/8neTnCY5Nl0l4mciKiDTHOuFF/ITD21TrHPQklzaWrBQ=="/>
+            <enclosure url="https://raw.githubusercontent.com/Superoutman/RightMenu/main/RightMenu-0.1.9.zip" length="3397932" type="application/octet-stream" sparkle:edSignature="HPTu2bjWmD4ozG9P1PCfLZ2FZM4BXhd4bSrwFGZlQ/8neTnCY5Nl0l4mciKiDTHOuFF/ITD21TrHPQklzaWrBQ=="/>
         </item>
     </channel>
 </rss>

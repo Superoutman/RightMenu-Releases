@@ -8,7 +8,7 @@
 
 A clean, native context-menu extension for macOS Finder.
 
-[Download the latest release](https://github.com/Superoutman/RightMenu-Releases/releases/latest)
+[Download the latest release](https://github.com/Superoutman/RightMenu/releases/latest)
 
 ![RightMenu Finder context menu](Assets/README/RightMenu.png)
 
@@ -59,7 +59,7 @@ below.
 ## Installation
 
 1. Download the latest ZIP from
-   [GitHub Releases](https://github.com/Superoutman/RightMenu-Releases/releases/latest).
+   [GitHub Releases](https://github.com/Superoutman/RightMenu/releases/latest).
 2. Extract `RightMenu.app` and move it to the **Applications** folder.
 3. Open RightMenu once.
 4. If macOS blocks the app because it cannot verify the developer, close the
