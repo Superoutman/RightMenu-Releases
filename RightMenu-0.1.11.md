@@ -1,16 +1,4 @@
-<?xml version="1.0" standalone="yes"?>
-<rss xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle" version="2.0">
-    <channel>
-        <title>RightMenu</title>
-        <item>
-            <title>0.1.11</title>
-            <pubDate>Fri, 17 Jul 2026 03:55:40 +0000</pubDate>
-            <link>https://github.com/Superoutman/RightMenu</link>
-            <sparkle:version>12</sparkle:version>
-            <sparkle:shortVersionString>0.1.11</sparkle:shortVersionString>
-            <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
-            <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-            <description sparkle:format="markdown"><![CDATA[
+
 ### Added
 
 - Added an optional Desktop-location **Hide Desktop Items** command above
@@ -42,8 +30,3 @@
   SDK builds keep the legacy toolbar path instead of failing on an unknown
   SwiftUI modifier.
 
-]]></description>
-            <enclosure url="https://raw.githubusercontent.com/Superoutman/RightMenu/main/RightMenu-0.1.11.zip" length="3447403" type="application/octet-stream" sparkle:edSignature="95pZiG3xnFVBcAu+cYNDUVyzLfqDT37j3rkWtsOTEE6DHQ4onURmEPqnQKVgwjv6gmU/7TdiwHIokGBc1DQQCg=="/>
-        </item>
-    </channel>
-</rss>
