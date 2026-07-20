@@ -3,47 +3,34 @@
     <channel>
         <title>RightMenu</title>
         <item>
-            <title>0.1.11</title>
-            <pubDate>Fri, 17 Jul 2026 03:55:40 +0000</pubDate>
+            <title>0.1.12</title>
+            <pubDate>Mon, 20 Jul 2026 05:54:20 +0000</pubDate>
             <link>https://github.com/Superoutman/RightMenu</link>
-            <sparkle:version>12</sparkle:version>
-            <sparkle:shortVersionString>0.1.11</sparkle:shortVersionString>
+            <sparkle:version>13</sparkle:version>
+            <sparkle:shortVersionString>0.1.12</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description sparkle:format="markdown"><![CDATA[
 ### Added
 
-- Added an optional Desktop-location **Hide Desktop Items** command above
-  Refresh on both the wallpaper and the Desktop folder background.
-- The command changes to **Show Desktop Items** after hiding desktop files, so
-  the same desktop context menu can restore them.
-- Added a Settings toggle that independently shows or hides the new command.
+- Added a copyable information line for a single selected Finder file, with the
+  file size displayed last.
+- Images additionally show their pixel dimensions and embedded horizontal and
+  vertical DPI values. Missing DPI metadata is omitted instead of inferred.
 
 ### Changed
 
-- Desktop visibility now records a recovery bookmark before applying Finder's
-  hidden metadata to each visible Desktop item. It restores only items changed
-  by RightMenu, keeps newly added items hidden with an event-driven listener,
-  and never moves, renames, or deletes files.
-- Finder's desktop layer remains active while items are hidden, preserving the
-  native wallpaper context menu across Show Desktop, multiple Spaces, and
-  different per-Space wallpapers.
-- RightMenu restores changed items on normal quit and automatically recovers an
-  interrupted hide session on the next launch.
-- The Hide or Show command is available from both the wallpaper background and
-  a Finder window opened at the Desktop folder, providing a recovery entry
-  where the hidden contents are being viewed.
-- Finder extension state is resynchronized from the host after each change,
-  keeping the desktop command title and Settings-controlled menus consistent.
-
-### Fixed
-
-- Compiler-gated the macOS 26 Liquid Glass toolbar customization so macOS 15
-  SDK builds keep the legacy toolbar path instead of failing on an unknown
-  SwiftUI modifier.
+- The Finder extension reads indexed image metadata through CoreServices and
+  gives the local host a timeout-bounded opportunity to read lightweight image
+  metadata before returning the first contextual menu.
+- Added a fail-closed recovery guard: unvalidated future macOS major versions
+  and interrupted information-menu builds suppress the new information line
+  without removing the existing Copy File Path command.
+- The Command Line Tools build now links the system CoreServices, ImageIO, and
+  Uniform Type Identifiers frameworks used by the Finder extension.
 
 ]]></description>
-            <enclosure url="https://raw.githubusercontent.com/Superoutman/RightMenu/main/RightMenu-0.1.11.zip" length="3447403" type="application/octet-stream" sparkle:edSignature="95pZiG3xnFVBcAu+cYNDUVyzLfqDT37j3rkWtsOTEE6DHQ4onURmEPqnQKVgwjv6gmU/7TdiwHIokGBc1DQQCg=="/>
+            <enclosure url="https://raw.githubusercontent.com/Superoutman/RightMenu/main/RightMenu-0.1.12.zip" length="3498287" type="application/octet-stream" sparkle:edSignature="+fqaTkuLLpBG+FjMGpF96lDyqTIVp1l6s64iGQCcBCs4xd2FJPorHnGx+7/vL9OJgueZbMLVkiI5E4zl/wsNCA=="/>
         </item>
     </channel>
 </rss>

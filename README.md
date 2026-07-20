@@ -18,6 +18,8 @@ A clean, native right-click menu.
   folder or the desktop.
 - Create TXT, Markdown, RTF, Word, Excel, and PowerPoint files.
 - Copy the full path of selected files and folders from their context menu.
+- View and copy the size of a selected file. Images additionally show pixel
+  dimensions and available DPI metadata.
 - Choose which file formats appear in the **New File** submenu.
 - Independently show or hide the menu bar icon and Dock icon.
 - Launch automatically at login.
@@ -42,8 +44,9 @@ right-click a file or folder.
   enabled.
 - **No Accessibility or Finder-control permission:** RightMenu does not request
   Accessibility access or permission to automate and control Finder.
-- **Local file handling:** new files are created on your Mac. RightMenu does
-  not upload file contents, filenames, selected paths, or clipboard data.
+- **Local file handling:** new files are created and file metadata is inspected
+  on your Mac. RightMenu does not upload file contents, filenames, selected
+  paths, metadata, or clipboard data.
 - **No tracking:** the app contains no analytics, advertising, telemetry,
   account system, or device identifier.
 - **Signed update verification:** update archives are verified by Sparkle using
@@ -81,6 +84,9 @@ below.
 - Right-click an empty area in a Finder folder or on the desktop, then choose
   **New File** and a file type.
 - Right-click one or more files or folders, then choose **Copy File Path**.
+- Right-click a single file to view and copy its size. For images, dimensions
+  and available DPI appear before the file size, separated by `｜`, for example:
+  `2,056 × 1,722 px (300 dpi) ｜ 905 KB`.
 - Open RightMenu Settings from its menu bar icon, Dock icon, Launchpad, or the
   Applications folder.
 - Use Settings to configure file formats, launch at login, and icon visibility.
