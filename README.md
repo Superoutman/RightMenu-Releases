@@ -10,13 +10,16 @@ A clean, native right-click menu.
 
 [Download the latest release](https://github.com/Superoutman/RightMenu/releases/latest)
 
+[Official website](https://superoutman.sol.build/rightmenu/)
+
 ![RightMenu Finder context menu](Assets/README/RightMenu.png)
 
 ## Features
 
 - Create new files directly from the background context menu of any Finder
   folder or the desktop.
-- Create TXT, Markdown, RTF, Word, Excel, and PowerPoint files.
+- Create TXT, Markdown, RTF, Word, Excel, PowerPoint, Pages, Numbers, and Keynote
+  files.
 - Copy the full path of selected files and folders from their context menu.
 - View and copy the size of a selected file. Images additionally show pixel
   dimensions and available DPI metadata.

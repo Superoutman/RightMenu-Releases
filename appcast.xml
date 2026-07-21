@@ -3,34 +3,28 @@
     <channel>
         <title>RightMenu</title>
         <item>
-            <title>0.1.12</title>
-            <pubDate>Mon, 20 Jul 2026 05:54:20 +0000</pubDate>
+            <title>0.1.13</title>
+            <pubDate>Tue, 21 Jul 2026 07:09:51 +0000</pubDate>
             <link>https://github.com/Superoutman/RightMenu</link>
-            <sparkle:version>13</sparkle:version>
-            <sparkle:shortVersionString>0.1.12</sparkle:shortVersionString>
+            <sparkle:version>14</sparkle:version>
+            <sparkle:shortVersionString>0.1.13</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description sparkle:format="markdown"><![CDATA[
 ### Added
 
-- Added a copyable information line for a single selected Finder file, with the
-  file size displayed last.
-- Images additionally show their pixel dimensions and embedded horizontal and
-  vertical DPI values. Missing DPI metadata is omitted instead of inferred.
+- Added Pages, Numbers, and Keynote to the end of the configurable **New File**
+  format list and Finder submenu.
+- New Pages, Numbers, and Keynote files are created from bundled blank
+  templates, so the feature works offline without requiring app automation
+  permissions.
 
 ### Changed
 
-- The Finder extension reads indexed image metadata through CoreServices and
-  gives the local host a timeout-bounded opportunity to read lightweight image
-  metadata before returning the first contextual menu.
-- Added a fail-closed recovery guard: unvalidated future macOS major versions
-  and interrupted information-menu builds suppress the new information line
-  without removing the existing Copy File Path command.
-- The Command Line Tools build now links the system CoreServices, ImageIO, and
-  Uniform Type Identifiers frameworks used by the Finder extension.
+- The Settings footer now opens the official RightMenu website.
 
 ]]></description>
-            <enclosure url="https://raw.githubusercontent.com/Superoutman/RightMenu/main/RightMenu-0.1.12.zip" length="3498287" type="application/octet-stream" sparkle:edSignature="+fqaTkuLLpBG+FjMGpF96lDyqTIVp1l6s64iGQCcBCs4xd2FJPorHnGx+7/vL9OJgueZbMLVkiI5E4zl/wsNCA=="/>
+            <enclosure url="https://raw.githubusercontent.com/Superoutman/RightMenu/main/RightMenu-0.1.13.zip" length="3730762" type="application/octet-stream" sparkle:edSignature="DoitLxOyJlCsZhJrsEtkwWhYAMDS3kN1rPrx0tt2jc+tyqGzP9ZzWj4XE52/bCF1F/3bkPXy60zXzuGEBUxQBw=="/>
         </item>
     </channel>
 </rss>
