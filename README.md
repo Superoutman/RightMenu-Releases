@@ -25,7 +25,7 @@ A clean, native right-click menu.
   dimensions and available DPI metadata.
 - Choose which file formats appear in the **New File** submenu.
 - Independently show or hide the menu bar icon and Dock icon.
-- Launch automatically at login.
+- No complicated setup—everything is clear at a glance and ready to use out of the box.
 - Receive in-app update notifications through Sparkle.
 - Follow the macOS system language automatically, with English and Simplified
   Chinese included.
