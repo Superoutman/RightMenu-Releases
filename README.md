@@ -38,36 +38,6 @@ folder, you can also hide or show desktop items. Right-click a file or folder to
 copy its path. When a single file is selected, RightMenu also displays available
 file and image details.
 
-## Compatibility
-
-- **Minimum system:** macOS 15.0 or later.
-- **Processor:** Apple Silicon (`arm64`) only. Intel-based Macs are not
-  supported.
-- Release candidates use the native macOS 26 presentation and are also
-  launched and lifecycle-tested on macOS 15 before publication.
-
-## Security & Privacy
-
-- **Native, sandboxed Finder extension:** the context menu is provided through
-  Apple's Finder Sync framework, and the extension runs with App Sandbox
-  enabled.
-- **No Accessibility or Finder-control permission:** RightMenu does not request
-  Accessibility access or permission to automate and control Finder.
-- **Local file handling:** new files are created and file metadata is inspected
-  on your Mac. RightMenu does not upload file contents, filenames, selected
-  paths, metadata, or clipboard data.
-- **No tracking:** the app contains no analytics, advertising, telemetry,
-  account system, or device identifier.
-- **Signed update verification:** update archives are verified by Sparkle using
-  the public EdDSA key embedded in the app before installation.
-- **Minimal network activity:** automatic update checks read only the public
-  RightMenu update feed. Normal Finder menu actions work locally.
-
-These application-level protections are separate from Apple's Developer ID and
-notarization checks. Current builds use ad-hoc code signing to keep early
-development costs low, so macOS displays the first-launch warning described
-below.
-
 ## Installation
 
 1. Download the latest ZIP from
@@ -99,6 +69,36 @@ below.
 - Open RightMenu Settings from its menu bar icon, Dock icon, Launchpad, or the
   Applications folder.
 - Use Settings to configure file formats, launch at login, and icon visibility.
+
+## Security & Privacy
+
+- **Native, sandboxed Finder extension:** the context menu is provided through
+  Apple's Finder Sync framework, and the extension runs with App Sandbox
+  enabled.
+- **No Accessibility or Finder-control permission:** RightMenu does not request
+  Accessibility access or permission to automate and control Finder.
+- **Local file handling:** new files are created and file metadata is inspected
+  on your Mac. RightMenu does not upload file contents, filenames, selected
+  paths, metadata, or clipboard data.
+- **No tracking:** the app contains no analytics, advertising, telemetry,
+  account system, or device identifier.
+- **Signed update verification:** update archives are verified by Sparkle using
+  the public EdDSA key embedded in the app before installation.
+- **Minimal network activity:** automatic update checks read only the public
+  RightMenu update feed. Normal Finder menu actions work locally.
+
+These application-level protections are separate from Apple's Developer ID and
+notarization checks. Current builds use ad-hoc code signing to keep early
+development costs low, so macOS displays the first-launch warning described
+above.
+
+## Compatibility
+
+- **Minimum system:** macOS 15.0 or later.
+- **Processor:** Apple Silicon (`arm64`) only. Intel-based Macs are not
+  supported.
+- Release candidates use the native macOS 26 presentation and are also
+  launched and lifecycle-tested on macOS 15 before publication.
 
 ## Updates
 
