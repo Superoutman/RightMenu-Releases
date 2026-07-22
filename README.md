@@ -30,9 +30,11 @@ A clean, native right-click menu.
 - Follow the macOS system language automatically, with English and Simplified
   Chinese included.
 
-RightMenu uses the native Finder Sync extension mechanism. **New File** appears
-when you right-click an empty area, while **Copy File Path** appears when you
-right-click a file or folder.
+RightMenu integrates with Finder through a native Finder Sync extension.
+Right-click an empty area to create a new file; on the desktop or in the Desktop
+folder, you can also hide or show desktop items. Right-click a file or folder to
+copy its path. When a single file is selected, RightMenu also displays available
+file and image details.
 
 ## Compatibility
 
