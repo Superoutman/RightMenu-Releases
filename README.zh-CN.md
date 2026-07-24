@@ -79,8 +79,6 @@ RightMenu 通过 macOS 原生 Finder Sync 扩展与 Finder 集成。更干净、
 
 - **最低系统版本：** macOS 15.0 或更高版本。
 - **处理器：** 仅支持 Apple 芯片（`arm64`），不支持 Intel Mac。
-- 发布候选版本使用 macOS 26 的原生界面，并会在发布前于 macOS 15 上完成启动和
-  生命周期测试。
 
 **Finder 生效范围：** RightMenu 当前仅支持启动磁盘中的普通 Finder 文件夹；
 外置硬盘、U 盘暂不支持；部分由 iCloud Drive、OneDrive、Dropbox 等管理的

@@ -95,8 +95,6 @@ above.
 - **Minimum system:** macOS 15.0 or later.
 - **Processor:** Apple Silicon (`arm64`) only. Intel-based Macs are not
   supported.
-- Release candidates use the native macOS 26 presentation and are also
-  launched and lifecycle-tested on macOS 15 before publication.
 
 **Finder scope:** RightMenu currently supports only regular Finder folders on
 the startup disk. External drives and USB drives are not currently supported;
