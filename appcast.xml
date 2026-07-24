@@ -3,23 +3,23 @@
     <channel>
         <title>RightMenu</title>
         <item>
-            <title>0.1.14</title>
-            <pubDate>Tue, 21 Jul 2026 08:12:44 +0000</pubDate>
+            <title>0.1.15</title>
+            <pubDate>Fri, 24 Jul 2026 04:06:15 +0000</pubDate>
             <link>https://github.com/Superoutman/RightMenu</link>
-            <sparkle:version>15</sparkle:version>
-            <sparkle:shortVersionString>0.1.14</sparkle:shortVersionString>
+            <sparkle:version>16</sparkle:version>
+            <sparkle:shortVersionString>0.1.15</sparkle:shortVersionString>
             <sparkle:minimumSystemVersion>15.0</sparkle:minimumSystemVersion>
             <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
             <description sparkle:format="markdown"><![CDATA[
-### Fixed
+### Added
 
-- Restored the native macOS 26 grouped Settings appearance used during local
-  development without changing the Settings layout or controls.
-- Release candidates linked against the macOS 26 SDK are now launched and
-  lifecycle-tested on macOS 15 before publishing.
+- Added Japanese, Korean, French, German, and Traditional Chinese localizations
+  to the app and Finder extension.
+- RightMenu now follows the macOS system language across seven bundled
+  localizations, with English remaining the fallback for unsupported languages.
 
 ]]></description>
-            <enclosure url="https://raw.githubusercontent.com/Superoutman/RightMenu/main/RightMenu-0.1.14.zip" length="3729883" type="application/octet-stream" sparkle:edSignature="qcMfGdM7gB47NmL8Uk3c+m4/5+VR+DuJiKlnrgth8k6WCHHIJBxilve/224e/osfnM8ZPUAUrprHNDqAZyxHAg=="/>
+            <enclosure url="https://raw.githubusercontent.com/Superoutman/RightMenu/main/RightMenu-0.1.15.zip" length="3753395" type="application/octet-stream" sparkle:edSignature="vuf8mO0ZWrf52XyAPKlm0qiV2gn4pZmv90mvCEeFTKFFx0d6CMsxxrba5Sfj+sUuBMrW4ZwLeQeoq/gz/vzqCw=="/>
         </item>
     </channel>
 </rss>

@@ -29,8 +29,8 @@ A clean, native right-click menu.
 - Independently show or hide the menu bar icon and Dock icon.
 - No complicated setup—everything is clear at a glance and ready to use out of the box.
 - Receive in-app update notifications through Sparkle.
-- Follow the macOS system language automatically, with English and Simplified
-  Chinese included.
+- Follow the macOS system language automatically, with English, Simplified and
+  Traditional Chinese, Japanese, Korean, French, and German included.
 
 RightMenu integrates with Finder through a native Finder Sync extension.
 Right-click an empty area to create a new file; on the desktop or in the Desktop
